@@ -48,7 +48,7 @@ class TasksController < ApplicationController
 
   # Strong Parameter
   
-  def set_message
+  def set_task
     @task = Task.find(params[:id])
   end
   
